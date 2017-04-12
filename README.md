@@ -22,7 +22,7 @@ pod "wb_class_category"
 
 ## Author
 
-acct<blob>=0xE78E8BE5BDAC, 1462999792@qq.com
+wang bin, 1462999792@qq.com
 
 ## License
 
