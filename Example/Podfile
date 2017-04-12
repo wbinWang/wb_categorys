@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'wb_class_category_Example' do
+  pod 'wb_class_category', :path => '../'
+
+  target 'wb_class_category_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
