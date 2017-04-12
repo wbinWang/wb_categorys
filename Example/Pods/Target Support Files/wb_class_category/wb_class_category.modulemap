@@ -1,0 +1,6 @@
+framework module wb_class_category {
+  umbrella header "wb_class_category-umbrella.h"
+
+  export *
+  module * { export * }
+}

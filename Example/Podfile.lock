@@ -1,0 +1,16 @@
+PODS:
+  - wb_class_category (0.1.0)
+
+DEPENDENCIES:
+  - wb_class_category (from `../`)
+
+EXTERNAL SOURCES:
+  wb_class_category:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  wb_class_category: 1c044df6112da51a4f600b585c54577b007cfb28
+
+PODFILE CHECKSUM: 1abf5959717f2678a1fbbc08111b4759336cc16b
+
+COCOAPODS: 1.2.0.beta.1
