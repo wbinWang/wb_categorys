@@ -1,5 +1,5 @@
 PODS:
-  - wb_class_category (0.1.0)
+  - wb_class_category (0.0.2)
 
 DEPENDENCIES:
   - wb_class_category (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  wb_class_category: 1c044df6112da51a4f600b585c54577b007cfb28
+  wb_class_category: c99551d2c33bb5d7c7468b40fa08dde6e2dd98b6
 
 PODFILE CHECKSUM: 1abf5959717f2678a1fbbc08111b4759336cc16b
 

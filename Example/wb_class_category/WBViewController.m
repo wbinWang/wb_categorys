@@ -7,7 +7,8 @@
 //
 
 #import "WBViewController.h"
-
+#import "NSNumber+ToString.h"
+#import "WBClassCategoryTools.h"
 @interface WBViewController ()
 
 @end
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    WBLog(@"123123123");
 }
 
 - (void)didReceiveMemoryWarning

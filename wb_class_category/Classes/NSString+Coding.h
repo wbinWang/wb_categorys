@@ -8,8 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString(MD5Addition)
+@interface NSString(Coding)
 
+/**
+ *  进行MD5编码
+ */
 - (NSString *)stringFromMD5;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "WBFileCachesManager.h"
+#import "WBToolsConst.h"
 @interface WBFileCachesManager()
 {
     

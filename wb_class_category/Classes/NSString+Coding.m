@@ -6,12 +6,13 @@
 //  Copyright 2011 Aurora Apps. All rights reserved.
 //
 
-#import "NSString+MD5Addition.h"
+#import "NSString+Coding.h"
 #import <CommonCrypto/CommonDigest.h>
 
-@implementation NSString(MD5Addition)
+@implementation NSString(Coding)
 
-- (NSString *) stringFromMD5{
+- (NSString *)stringFromMD5
+{
     
     if(self == nil || [self length] == 0)
         return nil;

@@ -8,6 +8,7 @@
 
 #import "WBPhotosManager.h"
 #import <Photos/Photos.h>
+#import "WBToolsConst.h"
 @interface WBPhotosManager()
 {
     NSString *_folderName;
@@ -79,7 +80,7 @@
     } completionHandler:^(BOOL success, NSError * _Nullable error) {
         
         if (success) {
-            XXLog(@"创建相册文件夹成功!");
+            WBLog(@"创建相册文件夹成功!");
             _isExistFolder = YES;
             
             //再次保存~
@@ -92,7 +93,7 @@
             }
             
         } else {
-            XXLog(@"创建相册文件夹失败:%@", error);
+            WBLog(@"创建相册文件夹失败:%@", error);
         }
     }];
 }
@@ -125,7 +126,7 @@
         PHAssetCollection *assetCollection = obj;
         
         //folderName是我们写入照片的相册
-        XXLog(@"相册文件夹名字%@",assetCollection.localizedTitle);
+//        WBLog(@"相册文件夹名字%@",assetCollection.localizedTitle);
         if ([assetCollection.localizedTitle isEqualToString:_folderName])  {
             [[PHPhotoLibrary sharedPhotoLibrary] performChanges:^{
                 //请求创建一个Asset
@@ -149,11 +150,11 @@
                 }
                 if (success) {
                     
-                    XXLog(@"保存视频成功!");
+//                    WBLog(@"保存视频成功!");
                     self.videoFilePath = nil;
                     
                 } else {
-                    XXLog(@"保存视频失败:%@", error);
+//                    WBLog(@"保存视频失败:%@", error);
                     //转存到系统相册
                 }
                 self.completeBlock = nil;
@@ -225,9 +226,9 @@
                     });
                 }
                 if (success) {
-                    XXLog(@"保存图片成功!");
+                    WBLog(@"保存图片成功!");
                 } else {
-                    XXLog(@"保存图片失败:%@", error);
+                    WBLog(@"保存图片失败:%@", error);
                 }
                 self.needSaveImg = nil;
                 self.imageFilePath = nil;

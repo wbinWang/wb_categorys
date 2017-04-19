@@ -1,22 +1,23 @@
 {
   "name": "wb_class_category",
-  "version": "0.1.0",
-  "summary": "A short description of wb_class_category.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/acct<blob>=0xE78E8BE5BDAC/wb_class_category",
+  "version": "0.0.2",
+  "summary": "objc中的一些类别，更新了一些工具类和宏",
+  "description": "里面包含了一些自己工作中用到过的类别，为了方便再各个项目中调用，制作了该pod库，持续更新...",
+  "homepage": "https://github.com/wbinWang",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "acct<blob>=0xE78E8BE5BDAC": "1462999792@qq.com"
+    "wang bin": "1462999792@qq.com"
   },
   "source": {
-    "git": "https://github.com/acct<blob>=0xE78E8BE5BDAC/wb_class_category.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/wbinWang/wb_categorys.git",
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "wb_class_category/Classes/**/*"
+  "source_files": "wb_class_category/Classes/**/*",
+  "frameworks": "UIKit"
 }
